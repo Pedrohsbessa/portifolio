@@ -91,7 +91,8 @@ function App() {
           <Contact />
         </motion.div>
       </div>
-      <Footer />
+      {/* <div className=""><Footer /></div> */}
+      
     </div>
   );
 }
