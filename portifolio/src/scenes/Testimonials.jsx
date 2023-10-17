@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Testimonials = () => {
   return (
-    <section id="testimonials" className="pt-32 pb-16">
+    <section id="testimonials" className="pt-32 pb-20">
       {/* HEADING */}
       <motion.div
         className="md:w-1/3 text-center md:text-left"
@@ -29,7 +29,7 @@ const Testimonials = () => {
       {/* TESTIMONIALS */}
       <div className="md:flex md:justify-between gap-8">
         <motion.div
-          className="mx-auto relative bg-blue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
+          className="mx-auto relative bg-blue max-w-[200px] h-[150px] flex flex-col justify-end p-16 mt-48
             before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person-1"
           initial="hidden"
           whileInView="visible"
@@ -47,7 +47,7 @@ const Testimonials = () => {
         </motion.div>
 
         <motion.div
-          className="mx-auto relative bg-red max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
+          className="mx-auto relative bg-red max-w-[200px] h-[150px] flex flex-col justify-end p-16 mt-48
             before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person-2"
           initial="hidden"
           whileInView="visible"
@@ -66,7 +66,7 @@ const Testimonials = () => {
         </motion.div>
 
         <motion.div
-          className="mx-auto relative bg-yellow max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
+          className="mx-auto relative bg-yellow max-w-[200px] h-[150px] flex flex-col justify-end p-16 mt-48
             before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person-3"
           initial="hidden"
           whileInView="visible"
